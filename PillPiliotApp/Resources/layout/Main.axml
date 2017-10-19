@@ -13,6 +13,26 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="Navn"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleNAVNmorgen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="Dosis"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleDOSISmorgen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/linearLayout1">
         <EditText
             android:id="@+id/morgenNavn1"
