@@ -21,13 +21,36 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleNAVNmorgen"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
         <TextView
             android:text="Dosis"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleDOSISmorgen"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView
+            android:text="Alarm"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleALARMmorgen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView
+            android:text="Taget?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleTAGETmorgen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView
+            android:text="Hvornår?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleHVORNÅRmorgen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -38,11 +61,32 @@
             android:id="@+id/morgenNavn1"
             android:text="Lamotrigin"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
         <EditText
             android:id="@+id/morgenDosis1"
             android:text="200 mg"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <EditText
+            android:inputType="time"
+            android:id="@+id/morgenAlarm1"
+            android:text="08:00"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <CheckBox
+            android:id="@+id/morgenTaget1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <EditText
+            android:inputType="time"
+            android:id="@+id/morgenHvornår1"
+            android:text="09:00"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>
