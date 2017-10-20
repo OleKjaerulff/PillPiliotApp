@@ -44,44 +44,68 @@ namespace PillPiliotApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040007
-			public const int linearLayout1 = 2130968583;
-			
-			// aapt resource value: 0x7f040001
-			public const int linearLayout2 = 2130968577;
-			
-			// aapt resource value: 0x7f04000a
-			public const int morgenAlarm1 = 2130968586;
-			
-			// aapt resource value: 0x7f040009
-			public const int morgenDosis1 = 2130968585;
-			
-			// aapt resource value: 0x7f04000c
-			public const int morgenHvornår1 = 2130968588;
-			
-			// aapt resource value: 0x7f040008
-			public const int morgenNavn1 = 2130968584;
-			
-			// aapt resource value: 0x7f04000b
-			public const int morgenTaget1 = 2130968587;
-			
-			// aapt resource value: 0x7f040004
-			public const int titleALARMmorgen = 2130968580;
-			
-			// aapt resource value: 0x7f040003
-			public const int titleDOSISmorgen = 2130968579;
-			
-			// aapt resource value: 0x7f040006
-			public const int titleHVORNÅRmorgen = 2130968582;
+			// aapt resource value: 0x7f040002
+			public const int gridLayout1 = 2130968578;
 			
 			// aapt resource value: 0x7f040000
-			public const int titleMORGEN = 2130968576;
+			public const int linearLayout1 = 2130968576;
 			
-			// aapt resource value: 0x7f040002
-			public const int titleNAVNmorgen = 2130968578;
+			// aapt resource value: 0x7f04000c
+			public const int morgenAlarm1 = 2130968588;
+			
+			// aapt resource value: 0x7f040012
+			public const int morgenAlarm2 = 2130968594;
+			
+			// aapt resource value: 0x7f04000b
+			public const int morgenAntal1 = 2130968587;
+			
+			// aapt resource value: 0x7f040011
+			public const int morgenAntal2 = 2130968593;
+			
+			// aapt resource value: 0x7f04000a
+			public const int morgenDosis1 = 2130968586;
+			
+			// aapt resource value: 0x7f040010
+			public const int morgenDosis2 = 2130968592;
+			
+			// aapt resource value: 0x7f04000e
+			public const int morgenHvornår1 = 2130968590;
+			
+			// aapt resource value: 0x7f040014
+			public const int morgenHvornår2 = 2130968596;
+			
+			// aapt resource value: 0x7f040009
+			public const int morgenNavn1 = 2130968585;
+			
+			// aapt resource value: 0x7f04000f
+			public const int morgenNavn2 = 2130968591;
+			
+			// aapt resource value: 0x7f04000d
+			public const int morgenTaget1 = 2130968589;
+			
+			// aapt resource value: 0x7f040013
+			public const int morgenTaget2 = 2130968595;
+			
+			// aapt resource value: 0x7f040006
+			public const int titleALARMmorgen = 2130968582;
 			
 			// aapt resource value: 0x7f040005
-			public const int titleTAGETmorgen = 2130968581;
+			public const int titleANTALmorgen = 2130968581;
+			
+			// aapt resource value: 0x7f040004
+			public const int titleDOSISmorgen = 2130968580;
+			
+			// aapt resource value: 0x7f040008
+			public const int titleHVORNÅRmorgen = 2130968584;
+			
+			// aapt resource value: 0x7f040001
+			public const int titleMORGEN = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int titleNAVNmorgen = 2130968579;
+			
+			// aapt resource value: 0x7f040007
+			public const int titleTAGETmorgen = 2130968583;
 			
 			static Id()
 			{

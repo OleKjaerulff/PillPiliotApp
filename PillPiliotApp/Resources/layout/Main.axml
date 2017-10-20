@@ -2,91 +2,97 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
     <TextView
         android:text="MORGEN"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/titleMORGEN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/titleMORGEN" />
-    <LinearLayout
-        android:orientation="horizontal"
+        android:layout_marginBottom="20.0dp"
+        android:layout_marginLeft="0.0dp" />
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2"
-        android:minWidth="25px"
-        android:minHeight="25px">
+        android:layout_height="133.5dp"
+        android:id="@+id/gridLayout1"
+        android:columnCount="6"
+        android:rowCount="3"
+        android:alignmentMode="alignBounds"
+        android:layout_marginBottom="0.0dp">
         <TextView
             android:text="Navn"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleNAVNmorgen"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_marginRight="78.0dp"
+            android:layout_marginBottom="0.0dp" />
         <TextView
             android:text="Dosis"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleDOSISmorgen"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_marginRight="50.0dp"
+            android:layout_marginLeft="0.0dp" />
+        <TextView
+            android:text="Antal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/titleANTALmorgen"
+            android:layout_marginRight="25.0dp" />
         <TextView
             android:text="Alarm"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleALARMmorgen"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_marginRight="44.0dp" />
         <TextView
             android:text="Taget?"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleTAGETmorgen"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_marginRight="42.5dp" />
         <TextView
             android:text="Hvornår?"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/titleHVORNÅRmorgen"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
+            android:layout_marginLeft="0.0dp" />
         <EditText
             android:id="@+id/morgenNavn1"
-            android:text="Lamotrigin"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:text="Lamotrigin" />
         <EditText
             android:id="@+id/morgenDosis1"
             android:text="200 mg"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_marginLeft="0.0dp" />
+        <EditText
+            android:id="@+id/morgenAntal1"
+            android:text="1"
+            android:layout_marginLeft="0.0dp" />
         <EditText
             android:inputType="time"
             android:id="@+id/morgenAlarm1"
-            android:text="08:00"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:text="08:00" />
         <CheckBox
-            android:id="@+id/morgenTaget1"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:id="@+id/morgenTaget1" />
         <EditText
             android:inputType="time"
             android:id="@+id/morgenHvornår1"
-            android:text="09:00"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-    </LinearLayout>
+            android:text="09:00" />
+        <EditText
+            android:id="@+id/morgenNavn2"
+            android:text="Lamotrigin" />
+        <EditText
+            android:id="@+id/morgenDosis2"
+            android:text="100 mg"
+            android:layout_marginLeft="0.0dp" />
+        <EditText
+            android:id="@+id/morgenAntal2"
+            android:text="1"
+            android:layout_marginLeft="0.0dp" />
+        <EditText
+            android:inputType="time"
+            android:id="@+id/morgenAlarm2"
+            android:text="08:00" />
+        <CheckBox
+            android:id="@+id/morgenTaget2" />
+        <EditText
+            android:inputType="time"
+            android:id="@+id/morgenHvornår2"
+            android:text="09:00" />
+    </GridLayout>
 </LinearLayout>
